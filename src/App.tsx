@@ -10,10 +10,12 @@ function App() {
               <SocialLinkProfile.Typography.Name>Abdul Badamasi</SocialLinkProfile.Typography.Name>
               <SocialLinkProfile.Typography.Location>Kaduna, Nigeria</SocialLinkProfile.Typography.Location>
           </SocialLinkProfile.ProfileInfo>
-          <SocialLinkProfile.Typography.BodyText>"Front-end developer and avid raeder"</SocialLinkProfile.Typography.BodyText>
+          <SocialLinkProfile.Typography.BodyText>"Front-end developer and avid reader"</SocialLinkProfile.Typography.BodyText>
           <SocialLinkProfile.LinksRoot>
-              <SocialLinkProfile.Links>Github</SocialLinkProfile.Links>
+              <SocialLinkProfile.Links href="https://github.com/papilo-cloud">Github</SocialLinkProfile.Links>
               <SocialLinkProfile.Links>Frontend Mentor</SocialLinkProfile.Links>
+              <SocialLinkProfile.Links>LinkedIn</SocialLinkProfile.Links>
+              <SocialLinkProfile.Links>Twitter</SocialLinkProfile.Links>
           </SocialLinkProfile.LinksRoot>
       </SocialLinkProfile.Root>
     </div>
