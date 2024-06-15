@@ -12,7 +12,7 @@ const Links: React.FC<ComponentProps<'a'>> = ({
 }) => {
   return (
     <a 
-      className={clsx(' block w-full rounded-lg font-primary font-semibold bg-grey-normal text-white hover:bg-green-light hover:text-black-off cursor-pointer text-center py-3', className)} 
+      className={clsx('block w-full rounded-lg tracking-wide font-primary font-semibold text-sm bg-grey-normal text-white hover:bg-green-light hover:text-black-off cursor-pointer text-center py-3', className)} 
       target='_blank'
       {...props}>
         {children}

@@ -7,7 +7,7 @@ const Info: React.FC<ComponentProps<'div'>> = ({
     ...props
 }) => {
   return (
-    <div className={clsx('flex flex-col items-center', className)} {...props}>
+    <div className={clsx('flex flex-col items-center gap-1', className)} {...props}>
         {children}
     </div>
   )

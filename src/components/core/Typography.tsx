@@ -7,7 +7,7 @@ const Name: React.FC<ComponentProps<'h1'>> = ({
     ...props
 }) => {
     return (
-        <h1 className={clsx('text-white text-2xl font-bold', className)} {...props}>
+        <h1 className={clsx('text-white text-2xl tracking-wider font-bold', className)} {...props}>
             {children}
         </h1>
     )
