@@ -7,7 +7,7 @@ const SocialRoot: React.FC<ComponentProps<'div'>> = ({
     ...props
 }) => {
   return (
-    <div className={clsx(' bg-', className)} {...props}>
+    <div className={clsx('flex flex-col gap-5 p-8 justify-center items-center bg-grey-dark max-w-[375px] min-h-[200px] rounded-xl', className)} {...props}>
         {children}
     </div>
   )
