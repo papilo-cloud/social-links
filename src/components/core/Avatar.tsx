@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 import image from '../../../public/images/avatar-jessica.jpeg'
 
 export interface AvatarProps extends ComponentProps<'img'> {

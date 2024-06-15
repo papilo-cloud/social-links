@@ -1,10 +1,6 @@
 import clsx from 'clsx'
 import React, { ComponentProps } from 'react'
 
-interface LinksProps extends ComponentProps<'a'> {
-  url: string
-}
-
 const Links: React.FC<ComponentProps<'a'>> = ({
   children,
   className,
